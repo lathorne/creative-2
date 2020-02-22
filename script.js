@@ -44,7 +44,7 @@ fetch(url)
         image = document.getElementById('image2');
         image.src = image_url;
 
-        go_to_url = document.getElementById('btn3');
+        go_to_url = document.getElementById('btn2');
         go_to_url.href = url;
 
         first_article = json.articles[2];
